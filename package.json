@@ -1,6 +1,7 @@
 {
   "name": "wealthwise",
   "version": "0.1.0",
+  "description": "A Personal Finance Tracker that helps with understanding of multiple technologies on the front end",
   "private": true,
   "scripts": {
     "dev": "next dev",
