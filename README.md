@@ -1,21 +1,55 @@
 # WealthWise
 A Personal Finance Tracker that helps with understanding of multiple technologies on the front end.
 
-
 > This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Install the dependencies:
 
-First, run the development server:
+```bash
+npm install
+# or
+yarn 
+# or
+pnpm install
+```
 
+Watch this video on how to setup supabase for your project
+[https://www.duolearn.tech/](https://www.duolearn.tech/)
+
+Setup your database with pre-defined schema, run the following commands
+> Note: You need to do this only once
+
+```bash
+npx supabase login
+```
+The above command will ask you to hit "Enter", after that you will be redirected to a browser window where you will be asked to login to your supabase account.
+
+```bash
+npm run select:db
+# or
+yarn select:db
+# or
+pnpm select:db
+```
+This will ask you to select the supabase project
+
+At last push the migration, meaning we have defined all the DB schema for you, so you will just update your supabase with the that schema
+```bash
+npm run migration:push
+# or
+yarn migration:push
+# or
+pnpm migration:push
+```
+
+Now, run the application:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
