@@ -1,0 +1,3 @@
+const Expenses = () => {
+    return <></>
+}
