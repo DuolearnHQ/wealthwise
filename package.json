@@ -12,6 +12,7 @@
     "migration:push": "npx supabase db push"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
